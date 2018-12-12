@@ -1,10 +1,11 @@
 description = 'Eureka'
 
 dependencies {
-    compile('org.springframework.cloud:spring-cloud-netflix-eureka-server') {
-        exclude module: 'spring-boot-starter-tomcat'
+    configurations {
+        compile.exclude module: 'spring-boot-starter-tomcat'
     }
-    compile 'org.springframework.cloud:spring-cloud-netflix-ribbon'
+    
+    compile 'org.springframework.cloud:spring-cloud-netflix-eureka-server'
     compile 'org.springframework.cloud:spring-cloud-config-client'
     compile 'org.springframework.boot:spring-boot-starter-undertow'
 }

@@ -1,0 +1,4 @@
+logging:
+  level:
+    org.xnio: error
+    io.undertow: error

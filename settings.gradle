@@ -2,3 +2,5 @@ rootProject.name = 'grpc'
 include 'grpc-serv'
 include 'grpc-client'
 include 'grpc-eureka'
+include 'grpc-config'
+

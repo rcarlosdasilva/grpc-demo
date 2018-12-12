@@ -30,7 +30,7 @@ allprojects {
     }
 }
 
-ext['guava.version'] = '26.0-jre'
+extensions['guava.version'] = '26.0-jre'
 
 subprojects {
     apply plugin: 'idea'
